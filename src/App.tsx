@@ -11,7 +11,7 @@ function App() {
 	return (
 		<div className='text-center'>
 			<h1> Counter App </h1>
-			  <p>{counter}</p>
+			<p>{counter}</p>
 			<button onClick={handleOnClick} className="bg-gray-400 py-1 px-3 rounded">increment</button>
 		</div>
 	);
