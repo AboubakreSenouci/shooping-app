@@ -8624,6 +8624,11 @@
     "is-plain-object" "5.0.0"
     "react-is" "17.0.2"
 
+"react-icomoon@^2.5.4":
+  "integrity" "sha512-C+xh0F2rB3FyA+6MozU7WDTSj4UPr3BAy/mGqTLwfDA3zgt2RB+l25A7CecX9eHaM/feOSwCoEu/GGiDlK+nqg=="
+  "resolved" "https://registry.npmjs.org/react-icomoon/-/react-icomoon-2.5.4.tgz"
+  "version" "2.5.4"
+
 "react-inspector@^5.1.0":
   "integrity" "sha512-GURDaYzoLbW8pMGXwYPDBIv6nqei4kK7LPRZ9q9HCZF54wqXz/dnylBp/kfE9XmekBhHvLDdcYeyIwSrvtOiWg=="
   "resolved" "https://registry.npmjs.org/react-inspector/-/react-inspector-5.1.1.tgz"
@@ -8663,7 +8668,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.0.tgz"
   "version" "0.14.0"
 
-"react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16.13.1 || ^17.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.4 || ^17.0.0", "react@^18.2.0", "react@>= 16.8.6":
+"react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16.13.1 || ^17.0.0", "react@^16.4.1 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.4 || ^17.0.0", "react@^18.2.0", "react@>= 16.8.6":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
