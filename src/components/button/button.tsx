@@ -1,29 +1,34 @@
 
 import classNames from 'classnames';
+import Icon from '../icons/icon';
+import IconType from '../icons/icons.types';
 
 const styles = {
-	ContainedBtn: 'py-1 px-2 rounded-lg',
-    TextBtn: 'py-1 px-2',
-	Outlined: 'py-1 px-2 border rounded-lg'
+	ContainedBtn: 'py-2 px-3 text-sm rounded-lg bg-white text-black',
+    TextBtn: 'py-1 px-2 text-sm',
+	Outlined: 'py-1 px-2 text-sm border rounded-lg'
 } as const;
 
 type ButtonProps = {
 	variant: keyof typeof styles;
-	icon?: string;
-	classname?: string;
-	children: React.ReactNode;
+	icon?: IconType;
+	className?: string;
+	iconclassName?: string;
+	iconSize?: number;
+	children?: React.ReactNode;
+	onClick?: (params: any) => any;
 };
 
 
 const Button: React.FC<ButtonProps> = (props) => {
-	const {variant, icon, classname, children} = props;
+	const {variant, icon, className, children, iconclassName, iconSize, onClick} = props;
 	const c = classNames(styles[variant],
-		{[classname || '']: Boolean(classname)},
+		{[className || '']: Boolean(className)},
 	);
 	return (
-		<button className={c}>
-            {icon}
+		<button className={c} onClick={onClick}>
 			{children}
+			<Icon icon={icon as IconType} className={iconclassName} size={iconSize}/>
 		</button>
 	);
 };
